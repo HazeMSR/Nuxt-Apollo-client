@@ -1,0 +1,28 @@
+{
+  "name": "test7",
+  "version": "1.0.0",
+  "description": "My transcendent Nuxt.js project",
+  "author": "HazeMSR",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-fetch": "^0.7.0",
+    "apollo-link-http": "^1.5.12",
+    "cross-env": "^5.2.0",
+    "graphql": "^14.1.1",
+    "graphql-anywhere": "^4.2.1",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-fetch": "^2.2.1",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
