@@ -32,12 +32,16 @@ import gql from 'graphql-tag'
 export default {
   async asyncData () {
     const data  = await opcion3
-switch (data.__typename) {
+/*switch (data.__typename) {
       case 'nombres': console.log(data.nombres) // use `key` as the primary key
       case 'subadmin': console.log(`__typename:${data.subadmin}`) // use `bar` prefix and `blah` as the primary key
       default: console.log('idk') // fall back to default handling
-    }
-  },
+    }*/
+      console.log(Object.getOwnPropertyNames(data['subadminsAll'][0]))
+
+  }
+
+  ,
   components: {
     Logo
   }
